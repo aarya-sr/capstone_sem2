@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/Quiz.css";
-import fallbackQuestions from "../constants/Fallbackdata";
+import fallbackQuestions from "../constants/Fallbackdata.js";
 
 const shuffleArray = (array) => {
   return [...array].sort(() => Math.random() - 0.5);
