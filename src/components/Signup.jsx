@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Auth.css";
-import { useUser } from "../context/UserContext"; // ✅ import user context
+import { useUser } from "../context/UserContext"; 
 import { useNavigate } from "react-router-dom";
 
 const Signup = () => {

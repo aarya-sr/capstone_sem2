@@ -23,13 +23,13 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // ✅ Basic checks — only non-empty fields required
+   
     if (!form.name.trim() || !form.email.trim() || !form.password.trim()) {
       alert("Please fill in all fields.");
       return;
     }
 
-    // ✅ Log the user in and store the name
+   
     setName(form.name.trim());
 
     // ✅ Redirect to home
