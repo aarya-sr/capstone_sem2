@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
 
       <div className="navbar__links">
-        <Link to="/quizzes" className="navbar__link">Quizzes</Link>
+        
         <Link to="/about" className="navbar__link">About</Link>
         <Link to="/signup" className="navbar__link">Sign Up</Link>
         <Link to="/login" className="navbar__cta">Login</Link>
