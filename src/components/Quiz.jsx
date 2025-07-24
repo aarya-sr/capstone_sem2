@@ -65,7 +65,7 @@ const Quiz = ({ category, topicName, difficulty }) => {
         setCurrQnIndex((prev) => prev + 1);
         setSelectedAnswer(null);
       } else {
-        // Finish and go to evaluation
+        
         navigate("/evaluation", {
           state: {
             questions,

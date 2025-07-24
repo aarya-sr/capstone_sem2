@@ -39,7 +39,7 @@ h2 {
   background-color: #e0e0e0;
 }
 
-/* Correct Answer */
+
 .option-btn.correct {
   background-color: #d4edda;
   border-color: #28a745;
@@ -47,7 +47,7 @@ h2 {
   font-weight: bold;
 }
 
-/* Incorrect Answer */
+
 .option-btn.incorrect {
   background-color: #f8d7da;
   border-color: #dc3545;
@@ -55,7 +55,7 @@ h2 {
   font-weight: bold;
 }
 
-/* Disabled (but not selected) Option */
+
 .option-btn.disabled {
   opacity: 0.6;
   cursor: not-allowed;

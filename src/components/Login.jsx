@@ -32,7 +32,7 @@ const Login = () => {
    
     setName(form.name.trim());
 
-    // ✅ Redirect to home
+    
     navigate("/");
   };
 

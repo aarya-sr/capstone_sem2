@@ -55,7 +55,7 @@ const Quizzes = () => {
       )}
 
       <div className="instructions">
-        <h3>📌 Instructions:</h3>
+        <h3> Instructions:</h3>
         <ul>
           <li>Read each question carefully before answering.</li>
           <li>Do not refresh the page once the quiz begins.</li>
